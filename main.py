@@ -1,5 +1,13 @@
+
+from math_python import stepen
+
+
 def hi_func(name):
     print(f'Hello, {name}')
+
+
+def hi_func():
+    print('Hello')
 
 
 def input_nums():
@@ -28,4 +36,6 @@ if __name__ == '__main__':
     n1, n2 = input_nums()
     minus_nums(n1, n2)
     delit_nums(n1, n2)
+    print(stepen(n1, 2))
     bye_bye()
+    # Функция принимает два числа и выводит их умножение и деление, и квадрат второго
