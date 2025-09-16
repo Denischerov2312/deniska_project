@@ -6,10 +6,6 @@ def hi_func(name):
     print(f'Hello, {name}')
 
 
-def hi_func():
-    print('Hello')
-
-
 def input_nums():
     n1, n2 = int(input('Ввод первого числа: ')), int(input('Ввод второго числа: '))
     return n1, n2
