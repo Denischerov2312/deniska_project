@@ -15,7 +15,12 @@ def get_name():
     return input('Введите ваше имя: ')
 
 
+def delit_nums(n1, n2):
+    print(f'{n1}/{n2}={n1/n2}')
+
+
 if __name__ == '__main__':
     hi_func(get_name())
     n1, n2 = input_nums()
     minus_nums(n1, n2)
+    delit_nums(n1, n2)
