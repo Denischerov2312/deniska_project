@@ -1,5 +1,5 @@
-def hi_func():
-    print('Hello')
+def hi_func(name):
+    print(f'Hello, {name}')
 
 
 def input_nums():
@@ -11,7 +11,11 @@ def minus_nums(n1, n2):
     print(f'{n1}-{n2}={n1-n2}')
 
 
+def get_name():
+    return input('Введите ваше имя: ')
+
+
 if __name__ == '__main__':
-    hi_func()
+    hi_func(get_name())
     n1, n2 = input_nums()
     minus_nums(n1, n2)
